@@ -1,0 +1,118 @@
+
+/* declarar variables */
+:root {
+    --primarycolor: #D9A60D;
+    --backgroundcolor: #0F2D40;
+    --textcolor: #FFFFFF;
+    --tipography: 'Gill Sans', arial;
+}
+
+body {
+width: 100vw;
+height: 100vh;
+overflow: hidden;
+
+
+}
+
+.container {
+    background-image: url("/assets/fondotarjetadeinvitacion2.png");
+    /* controlar tamaño de la imagen de fondo */
+    background-size: contain;
+    /* posicion de la imagen */
+    background-position: center;
+    /* repeticion de la imagen, secuencia */
+    background-repeat: no-repeat;
+    /* fijar en la pantalla */
+    background-attachment: fixed;
+     width: 38%;
+     overflow-x: hidden;
+     margin: auto;
+     height: 100%;
+}
+
+/* inicio Header */
+header {
+display:flex;
+/* flex direction controla la direccion de los elementos */
+flex-direction: column;
+/* justify-content: center; */
+align-items: center;
+color: var(--textcolor);
+margin-top: 55px;
+font-size: 30px;
+}
+
+.profesion {
+    text-align: center;
+    font-family:   italic;
+    font-size: 20px;
+
+}
+
+.banner2{
+    height: 8vw;
+    margin-top: 0px;
+} 
+
+
+/* fin header */
+
+/* inicio main */
+
+.bannermain {
+display: flex;
+align-items: center;
+justify-items: center;
+
+}
+
+.informacion {
+    display: flex;
+    width: 35%;
+    flex-direction: column;
+    border: solid var(--primarycolor);
+    margin: 20px;
+    text-align: center;
+    color: var(--primarycolor);
+    margin-left: 85px;
+
+}
+
+#cuando {
+
+    margin-top: 20px;
+}
+
+#hora {
+    
+    margin: 0px;
+    margin-top: 0px;
+}
+
+#importante{
+color: var(--textcolor) ;
+background-color: #D9A60D;
+padding: 20px;
+margin-bottom: 0px;
+
+}
+
+#imagengraduado {
+    width: 35%;
+    gap: 50px;
+    height: 265px;
+    margin-right: 20px;   
+}
+
+/* fin main */
+
+/* inicio footer */
+footer{
+    margin-top: 85px;
+    text-align: center;
+    color: var(--textcolor);
+    font-family: cursive;
+}
+
+/* fin footer */
